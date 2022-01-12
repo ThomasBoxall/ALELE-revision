@@ -1,0 +1,366 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  9 JAN 2022 17:43
+entering extended mode
+**"c:/Users/thoma/Documents/1. NEW/TEMP/ELE latex review sheets/Audio Systems/main.tex"
+(c:/Users/thoma/Documents/1. NEW/TEMP/ELE latex review sheets/Audio Systems/main.tex
+LaTeX2e <2021-11-15>
+L3 programming layer <2021-11-22> (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count191
+\Gm@cntv=\count192
+\c@Gm@tempcnt=\count193
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+ (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+) (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box50
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 729.41443pt, 57.81621pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=729.41443pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.45378pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count195
+\scratchdimen=\dimen149
+\scratchbox=\box51
+\nofMPsegments=\count196
+\nofMParguments=\count197
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen150
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
+\everyMPtoPDFconversion=\toks19
+) (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\thoma\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 14.
+<./images//monoBloc.jpg, id=1, 362.10281pt x 94.85437pt>
+File: ./images//monoBloc.jpg Graphic file (type jpg)
+<use ./images//monoBloc.jpg>
+Package pdftex.def Info: ./images//monoBloc.jpg  used on input line 18.
+(pdftex.def)             Requested size: 192.74724pt x 50.49112pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 There are lots of dif-fer-ent com-po-nents
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 which go into an au-dio sys-tem. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 di-a-gram shows a mono au-dio sys-tem.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+<./images//sigTrans1.jpg, id=2, 273.27094pt x 98.61844pt>
+File: ./images//sigTrans1.jpg Graphic file (type jpg)
+<use ./images//sigTrans1.jpg>
+Package pdftex.def Info: ./images//sigTrans1.jpg  used on input line 22.
+(pdftex.def)             Requested size: 192.74724pt x 69.5591pt.
+<./images//sigTrans2.jpg, id=3, 157.33781pt x 103.13531pt>
+File: ./images//sigTrans2.jpg Graphic file (type jpg)
+<use ./images//sigTrans2.jpg>
+Package pdftex.def Info: ./images//sigTrans2.jpg  used on input line 24.
+(pdftex.def)             Requested size: 192.74724pt x 126.35364pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 25.
+
+Underfull \hbox (badness 1515) in paragraph at lines 22--26
+\OT1/cmr/m/n/10.95 could also be shown as a po-ten-tial di-vider.
+ []
+
+<./images//msAmp.jpg, id=4, 250.68657pt x 76.03406pt>
+File: ./images//msAmp.jpg Graphic file (type jpg)
+<use ./images//msAmp.jpg>
+Package pdftex.def Info: ./images//msAmp.jpg  used on input line 28.
+(pdftex.def)             Requested size: 192.74724pt x 58.46402pt.
+<./images//dcBlock.jpg, id=5, 322.20375pt x 74.52844pt>
+File: ./images//dcBlock.jpg Graphic file (type jpg)
+<use ./images//dcBlock.jpg>
+Package pdftex.def Info: ./images//dcBlock.jpg  used on input line 33.
+(pdftex.def)             Requested size: 192.74724pt x 44.58548pt.
+<./images//singleStageAmp.jpg, id=6, 209.28188pt x 122.70844pt>
+File: ./images//singleStageAmp.jpg Graphic file (type jpg)
+<use ./images//singleStageAmp.jpg>
+Package pdftex.def Info: ./images//singleStageAmp.jpg  used on input line 35.
+(pdftex.def)             Requested size: 192.74724pt x 113.01295pt.
+
+Underfull \hbox (badness 1019) in paragraph at lines 32--36
+\OT1/cmr/m/n/10.95 The op-amps used in the cir-cuit am-plify all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
+
+ []
+
+<./images//summingAmp.jpg, id=7, 173.14688pt x 114.4275pt>
+File: ./images//summingAmp.jpg Graphic file (type jpg)
+<use ./images//summingAmp.jpg>
+Package pdftex.def Info: ./images//summingAmp.jpg  used on input line 40.
+(pdftex.def)             Requested size: 192.74724pt x 127.38443pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/thoma/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+
+ <./images//monoBloc.jpg> <./images//sigTrans1.jpg> <./images//sigTrans2.jpg> <./images//msAmp.jpg> <./images//dcBlock.jpg> <./images//singleStageAmp.jpg>]
+<./images//summingAmpAddGain.jpg, id=22, 196.48407pt x 102.3825pt>
+File: ./images//summingAmpAddGain.jpg Graphic file (type jpg)
+<use ./images//summingAmpAddGain.jpg>
+Package pdftex.def Info: ./images//summingAmpAddGain.jpg  used on input line 45.
+(pdftex.def)             Requested size: 192.74724pt x 100.44196pt.
+<./images//potentAmp.jpg, id=23, 216.81pt x 124.21407pt>
+File: ./images//potentAmp.jpg Graphic file (type jpg)
+<use ./images//potentAmp.jpg>
+Package pdftex.def Info: ./images//potentAmp.jpg  used on input line 52.
+(pdftex.def)             Requested size: 192.74724pt x 110.43263pt.
+<./images//activeFilterGraphs.jpg, id=24, 453.19313pt x 91.09032pt>
+File: ./images//activeFilterGraphs.jpg Graphic file (type jpg)
+<use ./images//activeFilterGraphs.jpg>
+Package pdftex.def Info: ./images//activeFilterGraphs.jpg  used on input line 61.
+(pdftex.def)             Requested size: 216.84248pt x 43.58385pt.
+<./images//bassBoost.jpg, id=25, 210.03468pt x 140.02313pt>
+File: ./images//bassBoost.jpg Graphic file (type jpg)
+<use ./images//bassBoost.jpg>
+Package pdftex.def Info: ./images//bassBoost.jpg  used on input line 63.
+(pdftex.def)             Requested size: 192.74724pt x 128.49808pt.
+<./images//bassCut.jpg, id=26, 210.7875pt x 146.79843pt>
+File: ./images//bassCut.jpg Graphic file (type jpg)
+<use ./images//bassCut.jpg>
+Package pdftex.def Info: ./images//bassCut.jpg  used on input line 66.
+(pdftex.def)             Requested size: 192.74724pt x 134.23636pt.
+<./images//trebleBoost.jpg, id=27, 192.72pt x 140.77594pt>
+File: ./images//trebleBoost.jpg Graphic file (type jpg)
+<use ./images//trebleBoost.jpg>
+Package pdftex.def Info: ./images//trebleBoost.jpg  used on input line 69.
+(pdftex.def)             Requested size: 192.74724pt x 140.79489pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./images//summingAmp.jpg> <./images//summingAmpAddGain.jpg> <./images//potentAmp.jpg> <./images//activeFilterGraphs.jpg> <./images//bassBoost.jpg> <./images//bassCut.jpg>]
+<./images//trebleCut.jpg, id=36, 171.64125pt x 122.70844pt>
+File: ./images//trebleCut.jpg Graphic file (type jpg)
+<use ./images//trebleCut.jpg>
+Package pdftex.def Info: ./images//trebleCut.jpg  used on input line 72.
+(pdftex.def)             Requested size: 192.74724pt x 137.79575pt.
+<./images//paToLs.jpg, id=37, 258.9675pt x 102.3825pt>
+File: ./images//paToLs.jpg Graphic file (type jpg)
+<use ./images//paToLs.jpg>
+Package pdftex.def Info: ./images//paToLs.jpg  used on input line 79.
+(pdftex.def)             Requested size: 192.74724pt x 76.20554pt.
+<./images//emmitterFollower.jpg, id=38, 176.91093pt x 147.55125pt>
+File: ./images//emmitterFollower.jpg Graphic file (type jpg)
+<use ./images//emmitterFollower.jpg>
+Package pdftex.def Info: ./images//emmitterFollower.jpg  used on input line 82.
+(pdftex.def)             Requested size: 192.74724pt x 160.76236pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./images//issueWithEF.jpg, id=39, 260.47313pt x 293.59688pt>
+File: ./images//issueWithEF.jpg Graphic file (type jpg)
+<use ./images//issueWithEF.jpg>
+Package pdftex.def Info: ./images//issueWithEF.jpg  used on input line 95.
+(pdftex.def)             Requested size: 192.74724pt x 217.25827pt.
+<./images//biasedAmp.jpg, id=40, 145.29282pt x 138.5175pt>
+File: ./images//biasedAmp.jpg Graphic file (type jpg)
+<use ./images//biasedAmp.jpg>
+Package pdftex.def Info: ./images//biasedAmp.jpg  used on input line 98.
+(pdftex.def)             Requested size: 192.74724pt x 183.77151pt.
+<./images//biasOut.jpg, id=41, 201.75375pt x 121.20282pt>
+File: ./images//biasOut.jpg Graphic file (type jpg)
+<use ./images//biasOut.jpg>
+Package pdftex.def Info: ./images//biasOut.jpg  used on input line 104.
+(pdftex.def)             Requested size: 192.74724pt x 115.793pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--105
+\OT1/cmr/m/n/10.95 This gives us a much bet-ter out-put
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--105
+
+ []
+
+[3 <./images//trebleBoost.jpg> <./images//trebleCut.jpg> <./images//paToLs.jpg> <./images//emmitterFollower.jpg> <./images//issueWithEF.jpg>]
+<./images//sourceFollower.jpg, id=46, 143.03438pt x 134.00063pt>
+File: ./images//sourceFollower.jpg Graphic file (type jpg)
+<use ./images//sourceFollower.jpg>
+Package pdftex.def Info: ./images//sourceFollower.jpg  used on input line 107.
+(pdftex.def)             Requested size: 192.74724pt x 180.57608pt.
+<./images//sourceFollowerOut.jpg, id=47, 210.7875pt x 137.7647pt>
+File: ./images//sourceFollowerOut.jpg Graphic file (type jpg)
+<use ./images//sourceFollowerOut.jpg>
+Package pdftex.def Info: ./images//sourceFollowerOut.jpg  used on input line 110.
+(pdftex.def)             Requested size: 192.74724pt x 125.97566pt.
+
+Underfull \hbox (badness 1028) in paragraph at lines 107--112
+\OT1/cmr/m/n/10.95 the emit-ter fol-lower is that the tran-sis-tor is
+ []
+
+<./images//pushPull.jpg, id=48, 141.52875pt x 142.28156pt>
+File: ./images//pushPull.jpg Graphic file (type jpg)
+<use ./images//pushPull.jpg>
+Package pdftex.def Info: ./images//pushPull.jpg  used on input line 115.
+(pdftex.def)             Requested size: 192.74724pt x 193.7891pt.
+<./images//pushPullOut.jpg, id=49, 228.10219pt x 224.33812pt>
+File: ./images//pushPullOut.jpg Graphic file (type jpg)
+<use ./images//pushPullOut.jpg>
+Package pdftex.def Info: ./images//pushPullOut.jpg  used on input line 116.
+(pdftex.def)             Requested size: 192.74724pt x 189.57236pt.
+<./images//opAmpPP.jpg, id=50, 145.29282pt x 135.50626pt>
+File: ./images//opAmpPP.jpg Graphic file (type jpg)
+<use ./images//opAmpPP.jpg>
+Package pdftex.def Info: ./images//opAmpPP.jpg  used on input line 120.
+(pdftex.def)             Requested size: 192.74724pt x 179.77647pt.
+[4 <./images//biasedAmp.jpg> <./images//biasOut.jpg> <./images//sourceFollower.jpg> <./images//sourceFollowerOut.jpg> <./images//pushPull.jpg> <./images//pushPullOut.jpg>] [5
+
+ <./images//opAmpPP.jpg>] (main.aux) ) 
+Here is how much of TeX's memory you used:
+ 2537 strings out of 478681
+ 41972 string characters out of 2846534
+ 350686 words of memory out of 3000000
+ 20625 multiletter control sequences out of 15000+600000
+ 411146 words of font info for 52 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,8n,62p,464b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\thoma\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\thoma\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\thoma\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/thoma/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (5 pages, 422859 bytes).
+PDF statistics:
+ 122 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+
