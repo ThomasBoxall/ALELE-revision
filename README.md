@@ -8,6 +8,4 @@ Images have been used throughout various revision sheets, where I have not creat
 ## Subjects
 Listed below are the subjects which the revision sheets have been created for
 * Eduqas A-Level Electronics
-* AQA A-Level Biology (7402)
-* OCR A-Level Computer Science (H466)  
-***Note:** some sheets are not yet uploaded*
+* OCR A-Level Computer Science (H466)
