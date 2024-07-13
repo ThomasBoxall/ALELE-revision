@@ -1,0 +1,39 @@
+\chapter{Testing During Development}
+During the development of my project, I will need to evaluate each section I program against my success criteria to ensure it works. I will also need to ensure that there are no bugs or errors in the code.
+\section{Types of Testing Used}
+To test my code as I go along, I will be using the following types of testing;
+\begin{itemize}
+    \item White Box testing
+    \item Integration testing
+\end{itemize}
+Each type of testing has a different strength. White box testing will allow me to test each programmatic element as I go along as I will know how it should be Integration testing will allow me to test how the different subroutines of the program interface with each other and confirm that data is being passed between them correctly.
+
+\section{Important elements to test during development}
+Listed below are the elements of my project which will need to be individually tested before they can be combined into the main game.
+\begin{itemize}
+    \item Buttons on the forms\\
+    The buttons on the forms will need to work correctly.
+    \item Generation of classes\\
+    The classes will need to be constructed correctly.
+    \item Files\\
+    The game will need to be able to save data out to files then read it back in.
+    \item Events\\
+    The events in the game will need to be generated and displayed correctly.
+    \item Generation of people\\
+    Both the family members and potential partners need to be generated randomly. These can be tested separately by using message boxes to display information from each person.
+    \item Death\\
+    The death algorithms will need to randomly select a character to die and them kill them.
+    \item Scores \\
+    The scores will need to be calculated and displayed correctly.
+    \item Education\\
+    The education system will need to work as designed my success criteria. This will be programmed in a modular way, so each subroutine can be tested before testing the subsystem as a whole.
+    \item Crimes\\
+    The crimes element will need to work independent of any other system in the game before it is combined.
+    \item Jobs\\
+    This subsystem, can be tested fully on its own before being integrated with the rest of the game.
+    \item Partners\\
+    The partners element to the game can't be tested fully independently because it will make use of some of the same functions which are used in the generate family members systems. This, however, shouldn't be a problem.
+\end{itemize}
+
+\section{Post Development Testing}
+After I have completed implementation of the project, I will need to test the complete program to ensure that all the different systems work together correctly. I will be using the test plan detailed in chapter \ref{chap:testPostDev}. 

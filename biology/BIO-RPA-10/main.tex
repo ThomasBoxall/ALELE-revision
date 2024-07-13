@@ -1,0 +1,124 @@
+\documentclass{thomasClass}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+
+\title{\textbf{Required Practical 10}
+\\Investigation into the effect of an environmental variable on the movement of an animal using either a choice chamber or a maze
+}
+\author{Thomas Boxall}
+\date{November 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{Method}
+\begin{enumerate}
+    \item Setup the choice chambers with a small amount of cotton wool in the bottom of each quadrant
+    \item Lay the gauze on top of the wool and put the lid on
+    \item Complete Experiment 1 as follows (this is exploring light intensity)
+    \begin{enumerate}
+        \item Pour the 12 woodlice into the central hole and slide a food over 2 of the quadrants
+        \item Leave the woodlice for 5 minutes then record how many are in each of the following halves
+        \begin{itemize}
+            \item Dark
+            \item Light
+        \end{itemize}
+    \end{enumerate}
+    \item Complete Experiment 2 as follows (this is exploring humidity)
+    \begin{enumerate}
+        \item Moisten 2 adjacent quadrants
+        \item Pour the 12 woodlice into the central hole
+        \item Leave the woodlice for 5 minutes then record how many are in each of the following quadrants
+        \begin{itemize}
+            \item Damp
+            \item Dry
+        \end{itemize}
+    \end{enumerate}
+    \item Complete Experiment 3 as follows (this is exploring humidity and light intensity together)
+    \begin{enumerate}
+        \item Moisten 2 adjacent quadrants (these may already be damp if you've previously conducted experiment 2)
+        \item Pour the 12 woodlice into the central hole and slide the hood over one of the damp and one of the dry quadrants, creating four different environments
+        \item Leave the woodlice for 5 minutes then record how many are in each of the following quadrants
+        \begin{itemize}
+            \item Damp and dark
+            \item Damp and light
+            \item Dry and dark
+            \item Dry and light
+        \end{itemize}
+    \end{enumerate}
+    \item Evaluate the results using an appropriate statistical test.
+\end{enumerate}
+
+\section{Safe handling of living organisms}
+\begin{itemize}
+    \item Don't eat or drink around them
+    \item Cover open wounds with a plaster
+    \item Wash hands thoroughly before and after the experiment
+    \item Handle the organisms using appropriate implements
+    \item If safe to do so, return the organism to where they came from after the experiment; if unsafe, dispose of them.
+\end{itemize}
+\section{Results}
+\subsection{Experiment 1}
+\subsubsection{Introduction}
+This experiment is looking into whether woodlice prefer light or dark conditions. \\
+\textbf{Null Hypothesis: }There is no preference between light and dark environments for woodlice
+\subsubsection{Data}
+\begin{table}[H]
+\begin{tabularx}{0.6\textwidth}{X|XXXXX}
+ & $O$ & $E$ & $O-E$ & $O-E^2$ & $\frac{(O-E)^2}{E}$ \\
+ \hline
+Light & 10 & 6 & 4 & 16 & 2.67 \\
+Dark & 2 & 6 & -4 & 16 & 2.67
+\end{tabularx}
+\end{table}
+Chi Value = 5.34
+\subsubsection{Statistical Proof}
+Degrees of Freedom = 1\\
+$\therefore$ Critical value (at P=0.05) = 2.84 \\
+As the chi value is greater than the critical value, the null hypothesis is rejected.\\
+
+\subsection{Experiment 2}
+\subsubsection{Introduction}
+This experiment is investigating whether woodlice prefer wet or dry conditions. \\
+\textbf{Null Hypotheses: }There is no preference between wet and dry conditions for woodlice.\\
+\textit{NB: This experiment was only carried out in light conditions. For a fair test, it should have also been carried out in dark conditions.}
+
+\subsubsection{Data}
+\begin{table}[H]
+\begin{tabularx}{0.6\textwidth}{X|XXXXX}
+ & $O$ & $E$ & $O-E$ & $O-E^2$ & $\frac{(O-E)^2}{E}$ \\
+ \hline
+Wet & 12 & 6 & 6 & 36 & 6 \\
+Dry & 0 & 6 & -6 & 36 & 6
+\end{tabularx}
+\end{table}
+Chi Value = 12
+\subsubsection{Statistical Proof}
+Degrees of freedom = 1\\
+$\therefore$ Critical value (at P=0.005) = 3.84 \\
+As the Chi value is greater than the critical value, the null hypothesis is rejected.\\
+
+
+\subsection{Experiment 3}
+\subsubsection{Introduction}
+This experiment is investigating whether woodlice prefer light and dry or light and wet or dark and dry or dark and wet conditions.\\
+\textbf{Null Hypothesis: }The woodlice have no preference between the conditions listed above.
+\subsubsection{Data}
+\begin{table}[H]
+\begin{tabularx}{0.6\textwidth}{l|XXXXX}
+ & $O$ & $E$ & $O-E$ & $O-E^2$ & $\frac{(O-E)^2}{E}$ \\
+ \hline
+Wet/Light & 0 & 3 & -3 & 9 & 3 \\
+Wet/Dark & 12 & 3 & 9 & 81 & 27 \\
+Dry/Light & 0 & 3 & -3 & 9 & 3 \\
+Dry/Dark & 0 & 3 & -3 & 9 & 3
+\end{tabularx}
+\end{table}
+Chi Value = 36
+\subsubsection{Statistical Proof}
+Degrees of freedom = 3\\
+$\therefore$ Critical value (at P=0.005) = 7.82 \\
+As the Chi value is greater than the critical value, the null hypothesis is rejected.
+
+\end{document}

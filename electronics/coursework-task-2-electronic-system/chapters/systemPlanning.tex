@@ -1,0 +1,28 @@
+\chapter{System Planning}
+\section{Research}
+Before I start to plan my design, I will need to start by researching existing designs.
+\subsection{Existing Designs}
+I started by researching existing designs of voltmeter. I learnt that there were a variety of designs, each doing fundamentally the same thing. They would all take an analogue voltage as an input and display a numerical value as the output. The exact method which they used to display differed, this is where the main differences can be found between the designs.
+\subsubsection{Analogue Voltmeter}
+These work by having a coil of wire suspended in a strong magnetic field. The current of the signal who's voltage needs to be measured is passed through this wire, the magnetic field and coil interact and the coil rotates, moving the needle which is attached to it. The needle points to a scale which can be read by the operator\footnote{https://en.wikipedia.org/wiki/Voltmeter}.
+
+\subsubsection{Digital Voltmeter}
+These work by taking the analogue input voltage then converting it to a digital signal then outputting that signal in numerical form. They usually use an integrating ADC. Digital voltmeters' accuracy can be affected by many factors including temperature, input impedance and power supply variation. The input impedance issues can be overcome by having input resistance $>1M\Omega $. Digital voltmeters also have to be calibrated frequently, using a known voltage source\footnote{https://en.wikipedia.org/wiki/Voltmeter}.
+
+\subsubsection{Multimeter}
+Multimeters can measure many different values from an electrical circuit. They have a digital voltmeter built into them as one of their options; this works as described above\footnote{https://www.electronicdesign.com/technologies/test-measurement/article/21146730/multimeter-measurements-explained}.
+
+\section{Components Of Subsystems}
+I then began to work out what subsystems I would need to use to convert the input voltage to seven-segment displays. I worked out that first the voltage would need to be converted into a binary number which then could be inputted into a memory lookup table. This can then output BCD which can go into the display subsystem.
+\section{Specification}
+\begin{itemize}
+    \item The voltmeter will measure in volts and range from 0V to 5V, in 0.1V increments.
+    \item The voltmeter will have a sample rate of 1KHz $\pm 400Hz$ times per second. This will be produced by Schmitt Astable with a frequency of 1KHz.
+    \item The voltmeter is accurate to within $\pm0.1\mathrm{V}$.
+    \item The voltmeter takes less than 0.5 seconds to adjust its output once a change in voltage is detected.
+    \item The voltmeter should take a +5V, 0V and -5V (within $\pm0.5\mathrm{V}$) input.
+    \item The voltmeter will be easy to use.
+    \item The voltage will output to two 7-segment displays; one for the units and one for the tenths.
+    \item The entire circuit will only require human input to connect the analogue voltage.
+    \item The voltmeter should be as efficient as possible, reducing heat dissipated to the environment.
+\end{itemize}

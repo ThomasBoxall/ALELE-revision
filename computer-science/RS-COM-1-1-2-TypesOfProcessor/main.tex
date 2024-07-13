@@ -1,0 +1,46 @@
+\documentclass[a4paper,11pt, twocolumn]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{xcolor}
+\usepackage{graphicx} %package to manage images
+\graphicspath{ {./images/} }
+
+\title{1.1.2 Types Of Processor}
+\author{Revision sheet}
+\date{}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\fancyfoot{} % clear all footer fields
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyfoot[C]{\thepage} % page number in centre of the page
+\fancyfoot[R]{\footnotesize Thomas Boxall \\ } % right hand footer has author name on top line and images reference on bottom line
+\fancyfoot[L]{\footnotesize 1.1.2 Types Of Processor \\ Revision sheet} % left hand footer has title of document on top line and 'Revision Sheet' on bottom line
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+% CONTENTS OF THE REVISION SHEET HERE
+\section{CISC and RISC}
+\subsection{CISC}
+\textit{Complex Instruction Set Computers} have a large instruction set which is used to accomplish tasks in as few lines of assembly language as possible. For example, \verb|MULT A, B| will load the relevant values and multiply them together. An advantage of CISC is that the compiler has less work to do to translate a high-level language to machine code, this means very little RAM is required (to store instructions). A disadvantage of CISC is that many specialist instructions had to be built into the hardware, even though only 20\% were used in the average program and instructions can span across multiple clock cycles.
+\subsection{RISC}
+\textit{Reduced Instruction Set Computers} have a much smaller instruction set which means more lines of assembly language code are required to accomplish tasks. The simpler instructions however, means each instruction can be completed on one clock cycle. A disadvantage of RISC is that the compiler has to do more work to translate high level language code into machine code, and more RAM is required to store the instructions. An advantage of RISC is that because each instruction takes only one clock cycle, pipelining is possible. RISC has generally replaced CISC as a processor design, however CISC is still used in some embedded systems. 
+
+\section{Multicore and Parallel Systems}
+Where CPUs have multiple cores, they are able to distribute the workload between them. This achieves higher performance, mostly. CPUs will have to use resources and time to divide the workload as well as organising sending and receiving data and instructions. The efficiency of a multicore processor depends on the nature of the tasks, if the tasks has to be completed sequentially then it isn't going to perform very well however if the task can be broken up into a number of smaller subtasks which can be processed in parallel (parallel processing), it can get quite efficient. Many modern programs are now being written to make use of parallel processing.
+
+\section{Co-Processors}
+Co-processors are extra processors used to supplement the function of the primary processor (CPU). They can be used to perform floating point arithmetic; graphics processing; digital signal processing; etc. They will generally only cary out a limited range of functions and may not be a general purpose processor (one which can fetch its own instructions).
+\subsection{GPUs}
+\textit{Graphics Processing Units} is a specialised subsystem which is very efficient at manipulating computer graphics and image-processing. They are optimised for parallel processing, therefore consist of thousands of smaller, more efficient cores designed for handling tasks simultaneously. GPUs may be present on a specialised graphics card or embedded on the motherboard. They are used more in applications such as machine learning; oil exploration; image processing and financial transactions. GPUs may be used to offload some of the very intense processing from the CPU which can then run the rest of the code - when this happens, the user may experience a slight performance increase.
+
+\end{document}
+
+differences between and uses of cisc and risc
+gpus and their uses (incl. not related to graphics)
+Multicore and parallel systems

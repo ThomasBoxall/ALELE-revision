@@ -1,0 +1,30 @@
+\chapter{Evaluation}
+\label{chap:evaluation}
+
+To evaluate my system, I will use my specification to evaluate if I have designed a satisfactory system.
+\section{Specification Evaluation}
+\begin{enumerate}
+    \item \textbf{The traffic light control system should be easy to use}\\
+    The traffic light control system is operated with only a single button. In a real world installation, this button would be clearly labelled with its function. This means that this point \tempText{Green}{can be marked as achieved}.
+    \item \textbf{The traffic light control system should be as efficient as possible, reducing heat dissipated to the environment}  \\
+    As my circuit is using a low voltage and current input, there isn't much energy to be dissipated. This low energy input requirement is partially due to the fact that I chose to use CMOS chips rather than TTL. TTL require a much higher operating voltage and current therefore they dissipate a much higher amount of energy. Therefore this point \tempText{Green}{can be marked as achieved}.
+    \item \textbf{The traffic light control system should recieve an input from a pedestrian and take 40 seconds ($\pm$20s) to allow them to cross.}\\
+    With the timings currently programmed, the longest wait a pedestrian could have is 20 seconds. Therefore, this point can be \tempText{Green}{can be marked as achieved}.
+    \item \textbf{The traffic light control system should not favour any particular road user over an other as well as giving equal chances to all direction of traffic.}\\
+    The traffic light control system is programmed to sequentially cycle through the different routes which cars can take and after each, check if there are pedestrians waiting to cross. If there are, they will be allowed to cross. Therefore this point \tempText{Green}{can be marked as achieved}.
+    \item \textbf{The traffic light system should ensure that when a direction of traffic is not able to go, its red stop LED is illuminated}\\
+    From testing my system, I have observed that when a direction of travel is not able to go, its red stop LED is illuminated. Therefore this point \tempText{Green}{can be marked as achieved}.
+    \item \textbf{The traffic light control system should take a 0V and +5V (within $\pm$0.5V) input}\\
+    The traffic light control system takes a 0V and +5V input. Therefore, this point \tempText{Green}{can be marked as achieved}.
+    \item \textbf{The traffic light control system should alert 'pedestrians' in at least two different ways that it is their turn to cross.}\\
+    The traffic light control system alerts the pedestrians that it is their turn to cross by illuminating a green LED and by sounding a buzzer. Therefore, this point \tempText{Green}{can be marked as achieved}.
+    \item \textbf{The traffic light control system should be developed in a way such that, the code is clear to read and understand, to ensure future developments can be carried out easily.}\\
+    The assembly language code has been developed making use of sensibly named variables and subroutine names. This means that it is clear to understand the code and trace through the program. Therefore, this point \tempText{Green}{can be marked as achieved}.
+\end{enumerate}
+As I have successfully completed all 8 points of my specification, this traffic light control system can be concluded as a success.
+
+\section{Further evaluation}
+Overall, I'm extremely pleased with the outcome of this project, especially with the timescale within which it was achieved in. Completing this project has taught me a lot about developing systems for microcontrollers and working with limited memory bit sizes. 
+
+\section{Improvements}
+There are a number of improvements I would like to include in a future iteration of this project. I would like to have separated the pedestrian crossings out so rather than all the crossings going at the same time, the crossings would go when cars are unable to drive down the road which they cross. It would also be nice to lay out the project across a number of breadboards which would mimicked the physical layout of the crossing, as well as increase the number of sets of traffic lights for the same junction mimicking the fact that there might be more than one set of traffic lights for the same junction. 

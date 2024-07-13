@@ -1,0 +1,66 @@
+\begin{titlepage} % Suppresses headers and footers on the title page
+	
+	\centering % Centre everything on the title page
+	
+	%------------------------------------------------
+	%	Top rules
+	%------------------------------------------------
+	
+	\rule{\textwidth}{1pt} % Thick horizontal rule
+	
+	\vspace{2pt}\vspace{-\baselineskip} % Whitespace between rules
+	
+	\rule{\textwidth}{0.4pt} % Thin horizontal rule
+	
+	\vspace{0.1\textheight} % Whitespace between the top rules and title
+	
+	%------------------------------------------------
+	%	Title
+	%------------------------------------------------
+
+	{\Huge \textbf{A-Level Electronics Project}}\\[0.5\baselineskip] % Title line 1
+	{\huge Task 2 - Electronic System}\\[0.5\baselineskip] % Title line 2
+	{\LARGE Voltmeter} % Title line 3
+
+	
+	\vspace{0.025\textheight} % Whitespace between the title and short horizontal rule
+	
+%	\rule{0.3\textwidth}{0.4pt} % Short horizontal rule under the title
+% make a voltmeter symbol in place of short horizontal rule under the title
+\begin{circuitikz}
+    \centering
+    \draw
+    (0,0) to[rmeter, t=V] (4,0);
+\end{circuitikz}
+	
+	\vspace{0.1\textheight} % Whitespace between the thin horizontal rule and the author name
+	
+	%------------------------------------------------
+	%	Author
+	%------------------------------------------------
+	
+	{\Large \textsc{Thomas Boxall}} \\% Author name
+	{\large\textsc{march 2022}} % Date
+	
+	\vfill % Whitespace between the author name and publisher
+	
+	%------------------------------------------------
+	%	Extra info
+	%------------------------------------------------
+	
+	{\large\textsc{BEXHILL COLLEGE: 56635}} \\
+	{\large\textsc{CANDIDATE NO: 5377}}
+	
+	\vspace{0.1\textheight} % Whitespace under the date text
+	
+	%------------------------------------------------
+	%	Bottom rules
+	%------------------------------------------------
+	
+	\rule{\textwidth}{0.4pt} % Thin horizontal rule
+	
+	\vspace{2pt}\vspace{-\baselineskip} % Whitespace between rules
+	
+	\rule{\textwidth}{1pt} % Thick horizontal rule
+	
+\end{titlepage}

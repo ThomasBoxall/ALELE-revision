@@ -1,0 +1,84 @@
+\documentclass[a4paper, 11pt, twoside]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\usepackage{float}
+
+%\usepackage[rightcaption]{sidecap}
+
+\usepackage{graphicx} %package to manage images
+\graphicspath{ {./images/} }
+
+\usepackage{appendix}
+
+\usepackage{textcomp}
+\renewcommand{\listfigurename}{\vspace{-100pt}}{ }
+
+\usepackage{tabularx}
+\usepackage{circuitikz}
+\usepackage{mwe}
+\usepackage[colorlinks=true, linkcolor=black]{hyperref}
+\usepackage{longtable}
+\usepackage{colortbl}
+
+%\title{\textbf{\Huge{A-Level Electronics Report}\\\Large{Digital Thermometer}}}
+
+%\usepackage[firstpage]{draftwatermark}
+%\SetWatermarkText{\textsc{proof}}
+%\SetWatermarkScale{7}
+
+\newcommand{\tempText}[2]{\color{#1}#2\color{black}}
+
+%SETUP COMMAND FOR BLANK PAGE FOR 2nd PAGE OF DOC
+\usepackage{afterpage}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+
+%MAKE PAGE HEADERS
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{Thomas Boxall}
+\fancyhead[RE,LO]{A-Level Electronics - Task 2} %put project title here
+\fancyfoot[RE,LO]{}
+\fancyfoot[LE,RO]{\thepage}
+\renewcommand{\footrulewidth}{0.4pt}
+
+
+\addtolength{\topmargin}{-1.59999pt}
+\setlength{\headheight}{13.59999pt}
+
+\begin{document}
+\input{title.tex}
+\newpage
+%\afterpage{\blankpage} %LEAVE BLANK PAGE FOR PRINTED FORMATTING 
+\ \\
+\newpage
+\tableofcontents
+\newpage
+
+%INPUT MAIN DOCUMENT CHAPTERS
+\input{chapters/introduction}
+\input{chapters/systemPlanning}
+\input{chapters/subsystemDesign}
+\input{chapters/userGuide}
+\input{chapters/testing}
+\input{chapters/evaluation}
+
+%DECLARE THE START OF THE APPENDIX AND INPUT APPENDIX DOC
+\appendix
+\input{appendix}
+
+
+\end{document}

@@ -1,0 +1,23 @@
+{
+    "Expenses":0,
+    "BankBalance":0,
+    "JobBand":1,
+    "JobTitle":"Grocery picker",
+    "JobSalary":17023,
+    "JobCurrentDuration":1,
+    "InEducation":true,
+    "EducationSituation":null,
+    "InJob":true,
+    "HairColour":"Brown",
+    "EyeColour":"Gray",
+    "FirstName":"William",
+    "LastName":"Bruce",
+    "Gender":"Male",
+    "Sexuality":"Straight",
+    "Age":21,
+    "LivingStatus":false,
+    "DateOfBirth":"2022-02-18T00:00:00+00:00",
+    "DateOfDeath":"2043-04-10T00:00:00+01:00",
+    "ReasonForDeath":"being strangled by a fez tassel",
+    "InRelationship":false
+}

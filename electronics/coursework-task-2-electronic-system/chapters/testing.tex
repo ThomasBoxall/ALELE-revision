@@ -1,0 +1,9 @@
+\chapter{Final System Testing}
+\label{ch:testing}
+After completing construction of the system, I then could test the entirety of the system.\newline
+To do this, I used a potentiometer to provide the input voltage. I can measure this using a multimeter and compare it to the output of my voltmeter.
+This was unsuccessful as the voltages were different between the multimeter and my voltmeter's output voltage.\newline
+After using the oscilloscope, I found out that the latches weren't clocking at the right time, resulting in the displays not updating. This was most probably because, despite the delay line, there was not enough delay before clocking the latches.  \newline
+To attempt to resolve this, I added in a button in and removed the delay line ending in the clock for the latches. The button is used to trigger the clock of the latch. This didn't work. \newline
+At this point I ran out of time to complete the project. If I had more time I would continue troubleshooting.
+The next troubleshooting step I would be trying is to add a system controller which would trigger the latches to latch and counters to reset at frequent intervals. This would hopefully improve the reliability of the system.

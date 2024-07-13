@@ -1,0 +1,163 @@
+\documentclass{thomasClass}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\title{\textbf{Required Practical 12}
+\\The effect of environmental factors on species distribution
+}
+\author{Thomas Boxall}
+\date{May 2022}
+
+\begin{document}
+
+\maketitle
+\section{Research}
+In Sampling a quadrat is commonly used. This is a square which is often made of wire. It may contain further marks to mark off smaller areas inside, such as 5 x 5 squares or 10 x 10 squares. The organisms underneath, usually plants can be identified and counted. Quadrats may also be used for slow-moving animals. [1]
+\subsection{Random Sampling}
+When a person conducting an investigation is planning and conducting the investigation, they may unintentionally introduce a bias. For example, in an experiment where the percent cover of daisies is being measured, it could be placing a quadrat down in a location where there are lots of daisies - therefore the results would be inaccurate. The method to overcome this would be to lay out two tape measures, generating a grid on the sample area; a random number generator is used to generate coordinates on the grid which the samples are taken from, removing human choice from the experiment. [2]
+\subsection{Systematic Sampling}
+Systematic sampling is suited for a transitional area, between two environments. A common method of doing this is to lay out a belt transect (could just be a tape measure), then at regular intervals a quadrat is laid down and a sample is taken. [3]
+
+\section{Planning}
+\subsection{Equipment}
+\begin{itemize}
+    \item Quadrat
+    \item Tape measure
+    \item Random number generator
+\end{itemize}
+\subsection{Procedure}
+\begin{enumerate}
+    \item In a large open space, \textit{the college field}, lay out two tape measures, meeting, in one corner, at a 90\textdegree \ angle. This will form the sample area.
+    \item \label{itm:top} Using the random number generator, generate a set of coordinates.
+    \item Lay the quadrat at the generated coordinates. 
+    \item Count the number of sub-divisions which contain the species which are being investigated. Record this number in a table.
+    \item \label{itm:bottom} Repeat step \ref{itm:top} to step \ref{itm:bottom}, 9 more times so that 10 samples have been taken. 
+    \item Calculate the percentage of the quadrat sub-units which contained the species which is being sampled. This will be the percentage cover, equation shown below.\\
+    \begin{equation*}
+    \mathrm{Percentage\ Cover\ Of\ Species} = \frac{\mathrm{Occurrences\ Of\ Species}}{\mathrm{Number\ Of\ Quadrat\ Sub units\ Sampled}} \times 100
+    \end{equation*}
+\end{enumerate}
+\subsection{Variables}
+\paragraph{Independent Variable}
+The location of the samples to be taken.
+\paragraph{Dependent Variable}
+The results of the samples.
+\paragraph{Control Variable}
+The location of the two tape measures; the quadrat to be used.
+
+\section{Experiment}
+Before conducting the experiment, I reviewed my planning and made some alterations to better fit the requirements. The reviewed equipment, procedure and variables are shown below.
+\subsection{Null Hypothesis}
+The light intensity has no effect on the percentage cover of daisies.
+\subsection{Reviewed Equipment}
+\begin{itemize}
+    \item Tape measure
+    \item Frame quadrat
+    \item Data logger with light intensity meter
+    \item Distilled water
+    \item Small pot
+    \item Spatula
+    \item pH indicator paper
+\end{itemize}
+\subsection{Reviewed Procedure}
+\begin{enumerate}
+    \item Lay out the tape measure in a line which travels through two different areas (bushes and middle of field). 
+    \item Working from one end of the line to the other, lay a quadrat down at one meter intervals and measure the following things within the quadrat:
+    \begin{enumerate}
+        \item Total number of different species
+        \item The percentage cover of a single species
+        \item The light intensity, at 30cm above the ground.
+    \end{enumerate}
+    \item At each end of the line, use a spatula to take a small soil sample then mix with distilled water. Then use a piece of pH indicator paper to work out the pH of the soil.
+\end{enumerate}
+\subsection{Reviewed Variables}
+\paragraph{Independent Variable}
+Location in the field
+\paragraph{Dependent Variable}
+Number of daisies / species
+\paragraph{Control Variables}
+Points along the tape measure samples taken at; size of quadrat used.
+
+\section{Results}
+\subsection{Raw Data}
+\begin{table}[H]
+\centering
+\begin{tabularx}{0.8\textwidth}{X | X X X}
+Distance from start of line & Total number of species & Percentage cover of daisies & Light intensity \\
+\hline
+0 & 5 & 0 & 221 \\
+1 & 4 & 2 & 255 \\
+2 & 4 & 0 & 356 \\
+3 & 4 & 1 & 413 \\
+4 & 3 & 0 & 486 \\
+5 & 3 & 5 & 537 \\
+6 & 3 & 1 & 547 \\
+7 & 4 & 14 & 734 \\
+8 & 4 & 4 & 738 \\
+9 & 3 & 8 & 742 \\
+10 & 5 & 7 & 791 \\
+11 & 4 & 6 & 806 \\
+12 & 4 & 2 & 833 \\
+13 & 3 & 2 & 844 \\
+14 & 4 & 5 & 876 \\
+15 & 4 & 12 & 911 \\
+16 & 5 & 11 & 997 \\
+17 & 6 & 14 & 1000
+\end{tabularx}
+\caption{Raw data}
+\end{table}
+\subsection{Statistical Calculations}
+To analyse this data, I will perform a Spearman's Rank Correlation Coefficient on the percentage cover of daisies and light intensity.
+\begin{table}[H]
+\centering
+\begin{tabularx}{0.8\textwidth}{X|XXXXXX}
+Distance from start of line & Percentage cover of daisies & Rank of percentage cover & Light intensity & Rank of light intensity & $d$  & $d^2$ \\
+\hline
+0 & 0 & 11 & 221 & 18 & -7 & 49 \\
+1 & 2 & 9 & 255 & 17 & -8 & 64 \\
+2 & 0 & 11 & 356 & 16 & -5 & 25 \\
+3 & 1 & 10 & 413 & 15 & -5 & 25 \\
+4 & 0 & 11 & 486 & 14 & -3 & 9 \\
+5 & 5 & 7 & 537 & 13 & -6 & 36 \\
+6 & 1 & 10 & 547 & 12 & -2 & 4 \\
+7 & 14 & 1 & 734 & 11 & -10 & 100 \\
+8 & 4 & 8 & 738 & 10 & -2 & 4 \\
+9 & 8 & 4 & 742 & 9 & -5 & 25 \\
+10 & 7 & 5 & 791 & 8 & -3 & 9 \\
+11 & 6 & 6 & 806 & 7 & -1 & 1 \\
+12 & 2 & 9 & 833 & 6 & 3 & 9 \\
+13 & 2 & 9 & 844 & 5 & 4 & 16 \\
+14 & 5 & 7 & 876 & 4 & 3 & 9 \\
+15 & 12 & 2 & 911 & 3 & -1 & 1 \\
+16 & 11 & 3 & 997 & 2 & 1 & 1 \\
+17 & 14 & 1 & 1000 & 1 & 0 & 0 \\
+\cline{6-7}
+ &  &  &  &  & $\sum d^2$ & 387
+\end{tabularx}
+\caption{Data used for the Spearman's rank correlation coefficient calculations}
+\end{table}
+\noindent I can then use the following formula to calculate the Spearman's  rank value.
+\begin{align*}
+    p &= 1 - \frac{6\sum d_{i}^{2}}{n(n^{2} - 1)}\\
+    p &= 1 - \frac{6 \times 387}{18(18^{2} - 1)}\\
+    p &= 1 - \frac{6 \times 387}{5814}\\
+    p &= 1 - 0.39938\\
+    p &= 0.60062\\
+    p & \approx 0.6
+\end{align*}
+
+\section{Conclusion}
+The value of $p$ is 0.6. At 17 degrees of freedom the $p=0.05$ value is 0.4555. As the value of p is greater than the critical value, we can reject the null hypothesis. Therefore the light intensity does not have an effect on the percentage cover of daisies.
+
+\subsection{Improvements}
+The field which this experiment was conducted on is mowed frequently. We would get better results if we were to use a field which was left to grow naturally, hence different species would be able to flourish in conditions which better suited them. However, there were a number of different species around the boundary of the field which we were unable to access - if we were able to access this then we would have been able to include a greater species diversity in our results.
+
+
+\section{References}
+\noindent [1] BBC Bitesize; \href{https://www.bbc.co.uk/bitesize/guides/zmxbkqt/revision/2}{https://www.bbc.co.uk/bitesize/guides/zmxbkqt/revision/2}; Accessed online 09-05-2022 12:30pm. \newline
+\noindent [2] Page 61; AQA Biology Practical Assessment; Ormisher J; Hodder Education; Accessed online through ProQuest Ebook Central 09-05-2022 12:10pm. \newline
+\noindent [3] Page 62; AQA Biology Practical Assessment; Ormisher J; Hodder Education; Accessed online through ProQuest Ebook Central 09-05-2022 12:25pm.
+
+
+\end{document}
+

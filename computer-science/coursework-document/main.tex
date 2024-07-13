@@ -1,0 +1,131 @@
+\documentclass{thomasClass}
+\usepackage[utf8]{inputenc}
+
+\usepackage[colorlinks=true, linkcolor=magenta]{hyperref}
+
+%SETUP CODE LISTING STYLES ETC
+\usepackage{listings}
+\usepackage{amsmath}
+
+\definecolor{codegreen}{RGB}{87,166,74}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{RGB}{214,157,133}
+\definecolor{codeblue}{RGB}{86,156,214}
+\definecolor{backcolour}{RGB}{30,30,30}
+\definecolor{codenormal}{RGB}{220,220,220}
+
+\lstdefinestyle{csharp}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{codeblue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\small\color{codenormal},
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,
+    morekeywords={abstract, as, base, bool, break, byte, case, catch, char, checked, class, const, continue, decimal, default, delegate, do, double, else, enum, event, explicit, extern, false, finally, fixed, float, for, foreach, goto, if, implicit, in, int, interface, internal, is, lock, long, namespace, new, null, object, operator, out, override, params, private, protected, public, readonly, ref,return, sbyte, sealed, short, sizeof, stackalloc, static, string, struct, switch, this, throw, true, try, typeof, uint, ulong, unchecked, unsafe, ushort, using, virtual, void, volatile, while, add, and, alias, ascending, async, await, by, descending, dynamic, equals, from, get, global, group, init, into, join, let, managed, nameof, nint, not, notnull, nuint, on, or, orderby, partial, partial, record, remove, select, set, unmanaged, unmanaged, value, var, when, where, where, with, yield},
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    rulecolor=\color{black},
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+\lstdefinestyle{pseudo}{
+    backgroundcolor=\color{white},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{codeblue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\small\color{black},
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,    
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    rulecolor=\color{black},
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+\newcommand{\inlineCode}{\lstinline[basicstyle=\small\ttfamily, breaklines=true]}
+
+\usepackage{longtable}
+\usepackage{multicol}
+
+\usepackage{textcomp}
+
+%MAKE PAGE HEADERS
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{Thomas Boxall}
+\fancyhead[RE,LO]{Virtual-Life}
+\fancyfoot[RE,LO]{}
+\fancyfoot[LE,RO]{\thepage}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\usepackage{appendix}
+
+
+%\title{A-Level Computer Science Documentation}
+%\author{thomasboxall6 }
+%\date{February 2022}
+
+\makeatletter
+\newcommand*{\tableofcontentssummary}{%
+  \begingroup
+    \value{tocdepth}=0\relax% usually show part, chapter and section only
+    \@fileswfalse
+    \renewcommand*{\contentsname}{Contents}%
+    \tableofcontents
+  \endgroup
+}
+\makeatother
+
+
+
+\begin{document}
+
+\setlength{\headheight}{13.59999pt}
+\addtolength{\topmargin}{-1.59999pt}
+%\maketitle
+\input{Components/title}
+\ \\
+ \newpage
+%\setcounter{tocdepth}{2}
+%\tableofcontents
+%\listoffigures
+%\lstlistoflistings
+\tableofcontentssummary
+
+\input{chapters/analysis}
+\input{chapters/design}
+\input{chapters/testing-dev}
+\input{chapters/implementation}
+\input{chapters/testing-post}
+\input{chapters/evaluation}
+
+\appendix
+\input{chapters/appendix/code-listings}
+\input{chapters/appendix/example-save-data}
+\input{chapters/appendix/references}
+\input{chapters/appendix/screenshotsOfForms}
+
+\chapter{Full Index}
+\begingroup
+\let\clearpage\relax
+\tableofcontents
+\endgroup
+
+\listoffigures
+\lstlistoflistings
+
+\end{document}

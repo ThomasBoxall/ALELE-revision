@@ -1,0 +1,31 @@
+\chapter{Example Game Saved Data}
+\label{chap:exampleSaveD}
+This is the saved game data produced from the game in video FL2.\\
+\textit{NB: These files have been passed through a \href{https://jsonformatter.curiousconcept.com/}{JSON File Formatter} to improve the readability of the data. The game saves the data as a single line without any formatting etc.}
+\section{Files}
+
+\subsection{Control Class}
+\subsubsection{[FILE]controlClass.json}
+\lstinputlisting[style=pseudo, caption=FILE/controlclass.json]{Components/exampleGameData/controlClass.json}
+
+\subsection{Event Array}
+The file below has been altered further from the formatted file (described above) and original file which the game produces. The game generates 1000 elements to the \verb|eventArray|, all of these, no matter if they are null get written out to the file, resulting in a file with 5002 lines (which takes up about 95 pages in this document). From a space efficiency point of view, the file has been trimmed, only showing 1 null event. There are 957 more in the original file.
+\subsubsection{[FILE]eventArray.json}
+\lstinputlisting[style=pseudo, caption=FILE/eventArray.json]{Components/exampleGameData/eventArrayTrimmed.json}
+
+\subsection{Family Array}
+In a similar way to the \verb|eventArray| file, the \verb|familyArray| file has also been altered by removing 26 null elements from the array.
+\subsubsection{[FILE]familyArray.json}
+\lstinputlisting[style=pseudo, caption=FILE/familyArray.json]{Components/exampleGameData/familyArrayTrimmed.json}
+
+\subsection{Main Character}
+\subsubsection{[FILE]mainCharacter.json}
+\lstinputlisting[style=pseudo, caption=FILE/mainCharacter.json]{Components/exampleGameData/mainCharacter.json}
+
+\subsection{Main Character Scores}
+\subsubsection{[FILE]mainCharacterScores.json}
+\lstinputlisting[style=pseudo, caption=FILE/mainCharacterScores.json]{Components/exampleGameData/mainCharacterScores.json}
+
+\subsection{Partner}
+\subsubsection{[FILE]partner.json}
+\lstinputlisting[style=pseudo, caption=FILE/partner.json]{Components/exampleGameData/partner.json}

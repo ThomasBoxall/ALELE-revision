@@ -1,0 +1,103 @@
+\documentclass{thomasClass}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage[fleqn]{mathtools}
+
+\title{\textbf{Required Practical 8}
+\\Investigation into the effect of a named factor on the rate of dehydrogenase activity in extracts of chloroplasts
+}
+\author{Thomas Boxall}
+\date{September 2021}
+
+\begin{document}
+\maketitle
+
+\section{Hypothesis}
+I think that the test with ammonium hydroxide will inhibit the LIR.
+\subsection{Null Hypothesis}
+The named factor (temperature) will not have an effect on the rate of reaction.
+
+\section{Variables}
+\textbf{Independent Variable: }Temperature (Ice and warm water)\\
+\textbf{Dependant Variable: }Rate of reaction (change in DCPIP colour intensity)\\
+\textbf{Control Variables: }Volume of solutions, light intensity, temperature for the repeats
+
+\section{Method}
+\begin{enumerate}
+    \item Half fill a large beaker with ice and place a small beaker on top of the ice
+    \item Prepare the chloroplast medium and put it in the beaker on ice. Then remove and stand to one side
+    \item Label five test tubes \textit{A, B, C, X, Y}. Stand these 5 tubes in the ice in the large beaker. Position the lamp about 10cm from the beaker so that all tubes are illuminated. Turn on the lamp.
+    \item Set up the test tubes as follows
+    \begin{enumerate}
+        \item[(A)] Put $5cm^3$ of DCPIP; $1cm^3$ water and $1cm^3$ chloroplast suspension in the tube. Immediately wrap the tube completely in aluminium foil to exclude light
+        \item[(B)] Put $5cm^3$  DCPIP solution and $1cm^3$ water and $1cm^3$ isolation medium in the tube
+        \item[(C)] Put $6cm^3$ water and $1cm^3$ chloroplast suspension in the tube
+        \item[(X)] Put $5cm^3$ DCPIP solution and $1cm^3$ water in the tube
+        \item[(Y)] Put $5cm^3$ DCPIP solution and $1cm^3$ ammonium hydroxide in the tube
+    \end{enumerate}
+    \item Put tube C in the colorimeter and use it to set the absorbance to zero
+    \item Add $1cm^3$ of chloroplast suspension to tube X, quickly mix the contents and start the timer. After exactly two minutes, measure the absorbance of the mixture in the colorimeter
+    \item Record the data in the table
+    \item Repeat steps 3 through 8 using hot water in place of ice
+\end{enumerate}
+
+\section{Data}
+\begin{table}[H]
+\centering
+\begin{tabularx}{0.8\textwidth}{c|XXX|XXX}
+\multirow{3}{*}{Tube} & \multicolumn{6}{c}{Absorbance} \\
+ & \multicolumn{3}{c}{Ice (3\textdegree C)} & \multicolumn{3}{c}{Hot water (38\textdegree C)} \\
+ & Data set 1 & Data set 2 & Mean & Data set 1 & Data set 2 & Mean \\
+ \hline
+A & 0.82 & 0.63 & 0.725 & 0.69 & 0.92 & 0.805 \\
+B & 0.31 & 0.36 & 0.335 & 0.48 & 0.46 & 0.56 \\
+C & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+X & 0.48 & 0.51 & 0.495 & 0.67 & 0.77 & 0.72 \\
+Y & 0.55 & 0.67 & 0.61 & 0.65 & 0.85 & 0.75
+\end{tabularx}
+\end{table}
+
+\section{Statistical analysis}
+This data would be suitable to analyse using the T-Test
+\subsection{Data}
+\begin{table}[H]
+\centering
+\begin{tabularx}{0.8\textwidth}{X|XX|XX}
+\multirow{2}{*}{Sample number} & \multicolumn{2}{c}{Test 1} & \multicolumn{2}{c}{Test 2} \\
+ & Abs in cold water (4\textdegree C) & $(X-\overline{X})^2$ & Abs in warm water(38\textdegree C) & $(X-\overline{X})^2$ \\
+ \hline
+1 & 0.875 & 0.012 & 0.321 & 0.005 \\
+2 & 0.732 & 0.001 & 0.162 & 0.008 \\
+3 & 0.678 & 0.008 & 0.249 & 0.000 \\
+4 & 0.811 & 0.002 & 0.310 & 0.004 \\
+5 & 0.736 & 0.001 & 0.210 & 0.002
+\end{tabularx}
+\end{table}
+
+\begin{figure} [H]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \textsc{Values for test 1}\\
+        \textbf{Total: }3.832\\
+        \textbf{Mean: }0.766\\
+        \textbf{Standard Deviation: }0.069\\
+    \end{minipage}\hfill
+    \begin{minipage} {0.45\textwidth}
+        \textsc{Values for test 2}\\
+        \textbf{Total: }1.252\\
+        \textbf{Mean: }0.250\\
+        \textbf{Standard Deviation: }0.060\\
+    \end{minipage}
+\end{figure}
+
+\subsection{Statistical Proof}
+Now we have the values required for the T-Test, I can use the formula \\
+
+\begin{align*}
+    t&=\frac{\overline{X_1} - \overline{X_2}}{\sqrt{\frac{{S_1}^2}{n_1}+\frac{{S_2}^2}{n_2}}} \\
+    t&=\frac{0.776-0.250}{\sqrt{\frac{0.069^2}{5}+\frac{0.060^2}{5}}} \\
+    t&=12.618
+\end{align*}
+The critical value for 8 degrees of freedom at P = 0.05 is 2.31. As the t value is greater than the critical value, we reject the null hypotheses. We can therefore conclude that there is a significant difference between the two means, so temperature doesn't affect the rate of reaction, this is not by chance.
+
+\end{document}
